@@ -109,6 +109,46 @@
 
   <!--end of schema.org-->
 
+   <!--json-ld-->
+   <script type="application/ld+json">
+    {
+      "@context":"https://schema.org",
+      "@type":"Product",
+      "productID":"facebook_tshirt_001",
+      "name":"Facebook T-Shirt",
+      "description":"Unisex Facebook T-shirt, Small",
+      "url":"https://example.org/facebook",
+      "image":"https://example.org/facebook.jpg",
+      "brand":" http://example.org/Brand",
+      "offers": [
+        {
+          "@type": "Offer",
+          "price": "7.99",
+          "priceCurrency": "USD",
+          "itemCondition": "https://schema.org/NewCondition",
+          "availability": "https://schema.org/InStock"
+        }
+      ],
+      "additionalProperty": [{
+        "@type": "PropertyValue",
+        "propertyID": "item_group_id",
+        "value": "fb_tshirts"
+      }]
+    }
+    </script>
+  <!--end of json-ld-->
+    <script>
+        fbq('track', 'ViewContent',
+         {  
+            content_ids: ['SM-F936BZAB'],    // Барааны  SKU
+            content_category: 'Гар утас, таблет',   // Вебсайт дээрхи категори 
+            content_name: 'Galaxy Z Fold 4 Graygreen',  // Барааны  Вебсайт дээрх нэр
+            content_type: 'product',  
+            contents: [ {'id': 'SM-F936BZAB'}], // Барааны  SKU
+            currency: 'MNT',     // Валют
+            value: '6599900.00'    // Барааны үнэ
+        });
+        </script>
  
 </script>
     <!-- Topbar Start -->
