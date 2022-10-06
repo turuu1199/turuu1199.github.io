@@ -64,21 +64,7 @@
         </noscript>
         </head>
 
-        <body>
-               <script>
-                fbq('track', 'ViewContent',
-                 {  
-                    content_ids: ['SM-F936BZAB'],    // Барааны  SKU
-                    content_category: 'Гар утас, таблет',   // Вебсайт дээрхи категори 
-                    content_name: 'Galaxy Z Fold 4 Graygreen',  // Барааны  Вебсайт дээрх нэр
-                    content_type: 'product',  
-                    contents: [ {'id': 'SM-F936BZAB'}], // Барааны  SKU
-                    currency: 'MNT',     // Валют
-                    value: '6599900.00'    // Барааны үнэ
-                });
-                </script>
-        </body>
-    </head>
+    
     <head>
         <script>
             !function(f,b,e,v,n,t,s)
@@ -92,6 +78,7 @@
             fbq('dataProcessingOptions', ['LDU'], 0, 0);
             fbq('init', '343447951092544');
             fbq('track', 'PageView');
+            fbq('track', 'Checkout');
             </script>
             <noscript><img height="1" width="1" style="display:none"
             src="https://www.facebook.com/tr?id=343447951092544&ev=PageView&noscript=1"
@@ -99,7 +86,7 @@
         </head>
         <body>
             <script>
-                fbq('track', 'InitiateCheckout',
+                fbq('track', 'бусад лизинг',
                  {  
                     content_ids: ['SM-F936BZAB'],    // Барааны  SKU
                     content_category: 'Гар утас, таблет',   // Вебсайт дээрхи категори 
@@ -108,11 +95,24 @@
                     contents: [ {'id': 'SM-F936BZAB'}], // Барааны  SKU
                     currency: 'MNT',     // Валют
                     value: '6599900.00',    // Барааны үнэ
-                    num_items: '1'  //Бараа сагсалсан тоо             
+                    num_items: '1'  //Бараа сагсалсан тоо            
+                });
+                </script>
+                </head>
+            </head>
+
+             <script>
+                fbq('track', 'Хаан банк', { 
+                    content_ids: ['SM-F936BZAB'],  // Барааны  SKU
+                    content_name: 'GALAXY Z FOLD 4 GRAYGREEN',  // Барааны  Вебсайт дээрх нэр
+                    content_type: 'product',    
+                    contents: [{'id': 'SM-F936BZAB', 'quantity': 1}],   // Барааны  SKU, Сагсалсан тоо ширхэг
+                    content_category: 'Гар утас, таблет', // Вебсайт дээрхи категори 
+                    currency: 'MNT',    // Валют 
+                    value: '6599900.00'   // Нийт үнэ
                 });
                 </script>
         </body>
-        </html>
 
 <body>
      <!--json-ld-->
@@ -143,18 +143,7 @@
     }
     </script>
   <!--end of json-ld-->
-    <script>
-        fbq('track', 'ViewContent',
-         {  
-            content_ids: ['SM-F936BZAB'],    // Барааны  SKU
-            content_category: 'Гар утас, таблет',   // Вебсайт дээрхи категори 
-            content_name: 'Galaxy Z Fold 4 Graygreen',  // Барааны  Вебсайт дээрх нэр
-            content_type: 'product',  
-            contents: [ {'id': 'SM-F936BZAB'}], // Барааны  SKU
-            currency: 'MNT',     // Валют
-            value: '6599900.00'    // Барааны үнэ
-        });
-        </script>
+
     <!-- Topbar Start -->
     <div class="container-fluid">
         <div class="row bg-secondary py-1 px-xl-5">
