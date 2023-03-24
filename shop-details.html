@@ -40,7 +40,11 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments)};
     gtag('js', new Date());
-    dataLayer.push({'color': 'red'});
+    dataLayer.push({
+    'color': 'red',
+    'conversionValue': 50,
+    'event': 'customize'
+    });
 
     gtag('config', 'TAG_ID');
     </script>
