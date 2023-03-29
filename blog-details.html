@@ -24,6 +24,28 @@
 </head>
 
 <body>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+            event: 'BlogDetails',
+            ecommerce: {
+            transaction_id: 'T_12345',
+            affiliation: 'Google Merchandise Store',
+            value: 25.42,
+            tax: 4.90,
+            shipping: 5.99,
+            currency: 'USD',
+            coupon: 'SUMMER_SALE',
+            items: [
+                {
+                item_id: 'SKU_12345',
+                item_name: 'Vetgetable’s Package',
+                item_category: 'Uncategorized',
+                price: 50
+                }]
+        }
+        });
+    </script>
     <!-- Page Preloder -->
     <div id="preloder">
         <div class="loader"></div>

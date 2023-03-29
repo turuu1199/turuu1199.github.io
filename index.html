@@ -51,6 +51,28 @@
     </div>
 
     <!-- Humberger Begin -->
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+            event: 'Home',
+            ecommerce: {
+            transaction_id: 'T_12345',
+            affiliation: 'Google Merchandise Store',
+            value: 25.42,
+            tax: 4.90,
+            shipping: 5.99,
+            currency: 'USD',
+            coupon: 'SUMMER_SALE',
+            items: [
+                {
+                item_id: 'SKU_12345',
+                item_name: 'Vetgetable’s Package',
+                item_category: 'Uncategorized',
+                price: 50
+                }]
+        }
+        });
+    </script>
     <div class="humberger__menu__overlay"></div>
     <div class="humberger__menu__wrapper">
         <div class="humberger__menu__logo">
